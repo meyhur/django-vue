@@ -4,16 +4,16 @@
 ## Create Virtual Enviroment
 
 ```console
-virtualenv django-vue -p python3
-cd django-vue
+virtualenv venvdjangovue -p python3
+cd venvdjangovue
 source bin/activate
 ```
 
 ## Clone project
 
 ```console
-git clone ...
-cd myproject
+git clone https://github.com/meyhur/django-vue.git
+cd django-vue
 pip install -r requirements.txt
 ```
 
