@@ -1,7 +1,7 @@
-h1 Create Virtual Enviroment and Django Project
+# Create Virtual Enviroment and Django Project
 ***
 
-h2 Create Virtual Enviroment
+## Create Virtual Enviroment
 
 ```console
 virtualenv django-vue -p python3
@@ -9,7 +9,7 @@ cd django-vue
 source bin/activate
 ```
 
-h2 Clone project
+## Clone project
 
 ```console
 git clone ...
@@ -17,37 +17,37 @@ cd myproject
 pip install -r requirements.txt
 ```
 
-h2 Migrate django
+## Migrate django
 
 ```console
 python manage.py migrate
 python manage.py createsuperuser
 
-*** Username (leave blank to use 'yourname'): ***
-*** Email address: ***
-*** Password: ***
-*** Password (again): ***
+*Username (leave blank to use 'yourname'):*
+*Email address:*
+*Password:*
+*Password (again):*
 ```
 
-h2 Install npm dependencies
+## Install npm dependencies
 
 ```console
 cd frontend
 npm install
 ```
 
-h1 Running the Vue bundle in Django DevServer
+# Running the Vue bundle in Django DevServer
 
-h2 We need two terminals.
+## We need two terminals.
 
-h3 First we run **frontend**
+### First we run **frontend**
 
 ```console
 cd frontend
 npm run serve
 ```
 
-h3 Than, in another terminal, this should have your virtual environment activated
+### Than, in another terminal, this should have your virtual environment activated
 
 ```console
 virtualenv django-vue -p python3
